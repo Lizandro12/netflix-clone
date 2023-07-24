@@ -1,11 +1,12 @@
 
 .header{
     display: flex;
-    padding: 1rem 0 0 4rem;
+    padding: 1rem 0 1rem 4rem;
     gap: 2rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.062);
 }
 .header__logo{
-    width: 150px;
+    width: 120px;
 
 }
 
@@ -20,6 +21,7 @@
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    font-size: 0.9rem;
 }
 
 .navBar__list_item--link{
