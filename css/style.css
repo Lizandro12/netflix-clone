@@ -1,0 +1,73 @@
+
+@import url(../css/reset.css);
+@import url(../css/header.css);
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.app{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #000000e6 5%,#00000033 20%,#00000033 80%, #000000cc 100% ), url(../assets/banner1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner__1{
+    width: 100vw;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+}
+
+.banner__1__left{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 4rem;
+}
+
+.banner__left__img{
+    width: 40%;
+}
+
+.banner__1__left--description{
+    font-size: 1rem;
+    color: #ffffff;
+    width: 40%;
+    margin-top: 1rem;
+    line-height: 1.3rem;
+
+}
+
+.banner__btns{
+    width: 50%;
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner__btn--play{
+    background-color: #ffffff;
+    padding: 0.8rem 1.5rem;
+    color: #000000;
+    font-weight: 600;
+    border-radius: 0.18rem;
+    transition: all 0.5s;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.banner__btn--play:hover{
+    background-color: #c4c3c3;
+}
+
+.banner__btn--info{
+    background-color: #74747496;
+    padding: 0.8rem 2rem;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 0.18rem;
+    transition: all 0.5s;
+}

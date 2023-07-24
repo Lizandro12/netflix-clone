@@ -1,0 +1,53 @@
+
+.header{
+    display: flex;
+    padding: 1rem 0 0 4rem;
+    gap: 2rem;
+}
+.header__logo{
+    width: 150px;
+
+}
+
+.header__navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar__list{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navBar__list_item--link{
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.navBar__list_item--link:hover{
+    color: #c4c3c3;
+}
+
+.navBar__list__extras{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navBar__list-extras-extra{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.navBar__list__extras-user{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 0.7rem 0 0;
+    cursor: pointer;
+}
