@@ -5,20 +5,19 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
 .app{
+    background-color: #0000;
+}
+
+.banner__1{
     height: 100vh;
     background-image: linear-gradient(to bottom, #000000e6 5%,#00000033 20%,#00000033 80%, #000000cc 100% ), url(../assets/banner1.png);
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.banner__1{
-    width: 100vw;
-    height: 800px;
     display: grid;
     grid-template-columns: 70% 30%;
     align-items: center;
+    z-index: 1;
 }
 
 .banner__1__left{
