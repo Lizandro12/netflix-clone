@@ -1,6 +1,7 @@
 
+
 .header{
-    width: 96%;
+    width: 95%;
     display: flex;
     padding: 1rem 0 1rem 4rem;
     gap: 2rem;
@@ -9,12 +10,11 @@
     z-index: 2;
 }
 .header__logo{
-    width: 120px;
-
+    width: 5.8rem;
 }
 
 .header__navBar{
-    width: 100%;
+    width: 87%;
     display: flex;
     justify-content: space-between;
     align-items: center;

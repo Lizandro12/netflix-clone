@@ -1,0 +1,27 @@
+
+.my__lists{
+    width: 100%;
+    padding: 0 0 0 4rem;
+}
+
+.my__lists__title{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.my__lists__list{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% 25% 25% 25%;
+    gap: 1.5rem;
+}
+
+.my__lists__list--image{
+    width: 22rem;
+    border-radius: 5px;
+}
+
+.mod{
+    padding-top: 3rem;
+}
