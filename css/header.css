@@ -8,7 +8,6 @@
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.062);
     position: absolute;
     z-index: 2;
-    background-color: #000000;
 }
 .header__logo{
     width: 5.8rem;
@@ -66,12 +65,12 @@
     width: 190px;
     position: absolute;
     top: 52px;
-    right: 125px;
+    right: 6%;
 }
 
 .settings__container--icon{
     position: relative;
-    right: -145px;
+    right: -90%;
 }
 
 .settings{
