@@ -78,3 +78,8 @@ body{
     border-radius: 0.18rem;
     transition: all 0.5s;
 }
+
+.banner__btn--info:hover{
+    background-color: #74747452;
+
+}
