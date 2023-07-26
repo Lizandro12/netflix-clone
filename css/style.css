@@ -10,6 +10,7 @@ body{
     height: auto;
 }
 .app{
+    width: 100vw;
     background-image: linear-gradient(to bottom, #000000 5%,#000000f5 20%,#000000 80%, #000000 100% );
     height: 100%;
 }

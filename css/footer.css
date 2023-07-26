@@ -3,15 +3,44 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6rem 7.5rem 0 7.5rem;
+    padding: 6rem 7.5rem 1rem 7.5rem;
+    gap: 6rem;
 }
 
 .footer__item__1{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding: 1rem;
 }
 
 .footer__item__1__social{
     color: #ffff;
+    margin-right: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.footer__list__1--item:nth-child(1),
+.footer__list__1--item:nth-child(2),
+.footer__list__1--item:nth-child(3){
+    margin-bottom: 1rem;
+
+}
+
+.footer__list__1--link{
+    font-size: 0.8rem;
+    color: #727d80;
+
+}
+
+.footer__list__1--service{
+    border: solid 1px #727d80;
+    padding: 0.5rem;
+    text-align: center;
+    width: 120px;
+}
+
+.footer__list__1--service__text{
+    color: #727d80;
+    font-size: 0.8rem;
 }
