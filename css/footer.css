@@ -29,18 +29,27 @@
 
 .footer__list__1--link{
     font-size: 0.8rem;
-    color: #727d80;
+    color: #7a7d7e;
 
 }
 
+.footer__list__1--link:hover{
+    text-decoration: underline;
+}
+
 .footer__list__1--service{
-    border: solid 1px #727d80;
+    border: solid 1px #7a7d7e;
     padding: 0.5rem;
     text-align: center;
     width: 120px;
 }
 
 .footer__list__1--service__text{
-    color: #727d80;
+    color: #7a7d7e;
     font-size: 0.8rem;
+}
+
+.service__text:hover{
+    color: #ffff;
+    cursor: pointer;
 }
