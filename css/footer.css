@@ -1,0 +1,17 @@
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 7.5rem 0 7.5rem;
+}
+
+.footer__item__1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer__item__1__social{
+    color: #ffff;
+}

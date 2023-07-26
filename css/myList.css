@@ -1,6 +1,5 @@
 
 .my__lists{
-    width: 100%;
     padding: 0 0 0 4rem;
 }
 
@@ -12,16 +11,15 @@
 }
 
 .my__lists__list{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25% 25% 25% 25%;
-    gap: 1.5rem;
+    display: flex;
+    gap: 0.8rem;
 }
 
 .my__lists__list--image{
-    width: 22rem;
-    border-radius: 5px;
+    width: 20rem;
+    border-radius: 3.5px;
 }
 
 .mod{
-    padding-top: 3rem;
+    padding-top: 4rem;
 }
