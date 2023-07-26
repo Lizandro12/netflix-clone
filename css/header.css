@@ -8,6 +8,7 @@
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.062);
     position: absolute;
     z-index: 2;
+    background-color: #000000;
 }
 .header__logo{
     width: 5.8rem;
@@ -55,6 +56,66 @@
     gap: 0.5rem;
     margin: 0 0.7rem 0 0;
     cursor: pointer;
+}
+
+.navBar__image{
+    border-radius: 3px;
+}
+
+.settings__container{
+    width: 190px;
+    position: absolute;
+    top: 52px;
+    right: 125px;
+}
+
+.settings__container--icon{
+    position: relative;
+    right: -145px;
+}
+
+.settings{
+    width: 100%;
+    background-color: #000000d8;
+    padding: 1rem 1.6rem 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: start;
+    border: solid 1px rgb(82, 82, 82);
+}
+
+.settings__item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.settings__box{
+    width: 20%;
+    text-align: center;
+}
+
+.settings__icons{
+    font-size: 1.5rem;
+}
+
+.settings--link{
+    color: #ffffff;
+
+}
+
+.settings--link:hover{
+    text-decoration: underline;
+}
+
+.settings__btn{
+    border: none;
+    outline: none;
+    padding: 0.6rem;
 }
 
 /* @media (max-width:1000px) {
