@@ -66,28 +66,63 @@
     transform: rotate(180deg);
 }
 
-.notificatiions__container{
+.notifications__container{
     position: absolute;
     top: 52px;
-    right: 185px;
+    right: 115px;
+    display: none;
 
+}
+
+.notifications__container.active{
+    display: block;
+}
+
+.notification__container--icon{
+    position: relative;
+    right: -94.5%;
 }
 
 .notifications{
     background-color: #000000d8;
-
+    width: 100%;
 }
 
 .notifications__item{
     display: flex;
+    border: solid 1px #525252;
+    padding: 1rem;
+    gap: 1rem;
 }
 
+.notifications__item:nth-child(1){
+    border-top: 2px solid;
+}
+
+.notifications__item:nth-child(2){
+    border-top: none;
+}
+
+.notifications__item--image{
+    border-radius: 5px;
+}
+
+.notifications__item__texts--title,
+.notifications__item__texts--text{
+    color: #ffffffd5;
+    margin-bottom: 0.3rem;
+}
+
+.notifications__item__texts--text-small{
+    font-size: 0.8rem;
+    color:#525252 ;
+}
 
 .settings__container{
     width: 190px;
     position: absolute;
     top: 52px;
-    right: 150px;
+    right: 80px;
     display: none;
 }
 
