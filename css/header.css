@@ -66,6 +66,23 @@
     transform: rotate(180deg);
 }
 
+.notificatiions__container{
+    position: absolute;
+    top: 52px;
+    right: 185px;
+
+}
+
+.notifications{
+    background-color: #000000d8;
+
+}
+
+.notifications__item{
+    display: flex;
+}
+
+
 .settings__container{
     width: 190px;
     position: absolute;
