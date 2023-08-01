@@ -65,3 +65,23 @@ function showMovies(data){
         `;
     })
 }
+
+//CARROUSSEL
+
+const carr = document.querySelector(".carr");
+const card = document.querySelectorAll(".teste")
+
+let indx = 0;
+
+function carroussel(){
+    indx++
+
+    if(indx >= card.length){
+        indx = 0;
+    }
+
+    carr.style.transform = `translateX(${-indx * 215}px)`
+    carr.style.transition = "all 0.5s"
+}
+
+setInterval(carroussel, 1800)
