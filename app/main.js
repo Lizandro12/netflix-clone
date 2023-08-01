@@ -37,3 +37,31 @@ function displaySubmenuOfNotifications(event){
 function hideSubmenuOfNotifications(event){
     subMenuOfNotifications.classList.remove("active")
 }
+
+//USING TMDB API
+
+const apiKEy = 'api_key=131374a70a23eebf5dc4b5caa10ef409';
+const baseURL = 'https://api.themoviedb.org/3'
+const urlAPI  = baseURL + '/discover/movie?sort_by=popularity.desc&' + apiKEy;
+const imageURL = 'https://image.tmdb.org/t/p/w500'
+
+const movieElement = document.getElementById("movie__list__1")
+
+async function getAPIMovie(url){
+    const response = await fetch(url);
+    const movies = await response.json();
+    showMovies(movies.results);
+}
+
+getAPIMovie(urlAPI);
+
+function showMovies(data){
+
+    data.forEach(element => {
+        movieElement.innerHTML += `
+            <li class="my__lists__list--item">
+            <img src="${imageURL+element.poster_path}" alt="" class="my__lists__list--image">
+            </li>
+        `;
+    })
+}
