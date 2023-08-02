@@ -10,14 +10,19 @@
     margin-bottom: 1rem;
 }
 
+/* .my__lists__container{
+    position: relative;
+} */
+
 .my__lists__list{
     display: flex;
     gap: 0.8rem;
 }
 
-.my__lists__list--item:hover{
+.tmda:hover{
     transition: all 0.5s;
-    transform: scale(1.5);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .my__lists__list--image{
@@ -27,4 +32,27 @@
 
 .mod{
     padding-top: 4rem;
+}
+
+.move{
+    font-size: 2rem;
+    position: relative;
+    color: #ffff;
+    background-color: rgba(0, 0, 0, 0.493);
+    display: inline;
+    padding: 5rem 1rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.move:hover{
+    background-color: rgba(0, 0, 0, 0.705);
+}
+.move__to_left{
+    top: -110px;
+}
+
+.move__to_right{
+    right: -92%;
+    top: -110px;
 }
