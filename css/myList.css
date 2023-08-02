@@ -15,6 +15,11 @@
     gap: 0.8rem;
 }
 
+.my__lists__list--item:hover{
+    transition: all 0.5s;
+    transform: scale(1.5);
+}
+
 .my__lists__list--image{
     width: 20rem;
     border-radius: 3.5px;

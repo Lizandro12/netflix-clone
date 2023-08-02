@@ -80,7 +80,7 @@ function carroussel(){
         indx = 0;
     }
 
-    carr.style.transform = `translateX(${-indx * 215}px)`
+    carr.style.transform = `translateX(${-indx * 150}px)`
     carr.style.transition = "all 0.5s"
 }
 
