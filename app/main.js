@@ -59,7 +59,7 @@ function showMovies(data){
 
     data.forEach(element => {
         movieElement.innerHTML += `
-            <li class="my__lists__list--item tmda teste">
+            <li class="my__lists__list--item tmda carroussel--item">
             <img src="${imageURL+element.poster_path}" alt="" class="my__lists__list--image">
             </li>
         `;
@@ -69,15 +69,15 @@ function showMovies(data){
 //CARROUSSEL
 
 const carr = document.querySelector(".carr");
-const card = document.querySelectorAll(".teste")
+const card = document.querySelectorAll(".carroussel--item")
 
 let indx = 0;
 
 function carroussel(){
 
     indx++
-
-    if(indx > 10 ){
+ 
+    if(indx > 11 ){
         indx = 0;
     }
 
