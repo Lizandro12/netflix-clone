@@ -51,6 +51,7 @@ body{
     gap: 0.5rem;
     margin: 0 0.7rem 0 0;
     cursor: pointer;
+    position: relative;
 }
 
 .navBar__image{
@@ -118,8 +119,8 @@ body{
 .settings__container{
     width: 190px;
     position: absolute;
-    top: 52px;
-    right: 80px;
+    top: 40px;
+    right: 30px;
     display: none;
 }
 

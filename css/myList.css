@@ -10,9 +10,9 @@
     margin-bottom: 1rem;
 }
 
-/* .my__lists__container{
+.my__lists__container{
     position: relative;
-} */
+}
 
 .my__lists__list{
     display: flex;
@@ -39,7 +39,7 @@
     position: relative;
     color: #ffff;
     background-color: rgba(0, 0, 0, 0.493);
-    display: inline;
+    display: inline-block;
     padding: 5rem 1rem;
     cursor: pointer;
     transition: all 0.5s;
@@ -49,10 +49,25 @@
     background-color: rgba(0, 0, 0, 0.705);
 }
 .move__to_left{
-    top: -110px;
+    top: -190px;
 }
 
 .move__to_right{
     right: -92%;
-    top: -110px;
+    top: -190px;
+}
+
+@media (max-width:1440px){
+    .move__to_right{
+        right: -89%;
+    }
+    
+}
+
+
+@media (max-width:1150px){
+    .move__to_right{
+        right: -87%;
+    }
+    
 }

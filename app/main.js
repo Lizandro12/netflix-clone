@@ -77,14 +77,14 @@ function carroussel(){
 
     indx++
  
-    if(indx > 11 ){
+    if(indx > 4 ){
         indx = 0;
     }
 
-        carr.style.transform = `translateX(${-indx *481}px)`
+        carr.style.transform = `translateX(${-indx *1200}px)`
         carr.style.transition = "all 0.5s"
 
 
 }
 
-setInterval(carroussel, 1800)
+setInterval(carroussel, 2500)
